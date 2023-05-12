@@ -1,22 +1,6 @@
 # 3Dface学習用
-## 導入
 
-This project implements some basic functions related to 3D faces.
-
-You can use this to process mesh data, generate 3D faces from morphable model, reconstruct 3D face with a single image and key points as inputs, render faces with difference lightings(for more, please see examples).
-
-In the beginning, I wrote this project for learning 3D face reconstruction and for personal research use, so all the codes are written in python(numpy). However, some functions(eg. rasterization) can not use vectorization to optimize, writing them in python is too slow to use, then I choose to write these core parts in c++(without any other big libraries, such as opencv, eigen) and compile them with Cython for python use. 
-So the final version is very lightweight and fast.
-
-In addition, the numpy version is also retained, considering that beginners can focus on algorithms themselves in python and researches can modify and verify their ideas quickly. I also try my best to add references/formulas in each function, so that you can learn basic knowledge and understand the codes. 
-
-For more information and researches related to 3D faces, please see [3D face papers](https://github.com/YadiraF/face3d/blob/master/3D%20Face%20Papers.md).
-
-Enjoy it ^_^ 
-
-
-
-## Structure
+## 構造
 
 ```python
 # Since triangle mesh is the most popular representation of 3D face, 
