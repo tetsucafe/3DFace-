@@ -1,6 +1,5 @@
-# face3d: Python tools for processing 3D face
-
-## Introduction
+# 3Dface学習用
+## 導入
 
 This project implements some basic functions related to 3D faces.
 
